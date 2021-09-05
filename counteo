@@ -1,0 +1,9 @@
+counteven=0
+countodd=0
+for i in range(1,51):
+    if i % 2 == 0:
+        counteven+=1
+    else:
+        countodd+=1
+print("count of even:",counteven)
+print("count of odd:",countodd)
